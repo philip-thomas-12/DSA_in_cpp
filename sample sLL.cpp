@@ -45,5 +45,6 @@ p->ne=NULL;
 int main(){
      i_b(19);
      i_e(34);
+    i_af(23);
     return 0;
 }
