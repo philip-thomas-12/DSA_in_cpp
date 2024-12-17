@@ -46,6 +46,14 @@ void d_f(){
     s=a->ne;
     delete a;
 }
+void d_e(){
+   n*a=s;
+    while(a->ne!=NULL){
+     a=a->ne;   
+    }
+    a->ne=NULL;
+    delete a;S
+}
 
 int main(){
      i_b(19);
