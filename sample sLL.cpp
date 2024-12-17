@@ -41,10 +41,16 @@ p->ne=NULL;
     a=p;
     p->ne=a->ne;
 }
+void d_f(){
+    n*a=s;
+    s=a->ne;
+    delete a;
+}
 
 int main(){
      i_b(19);
      i_e(34);
     i_af(23);
+    d_f();
     return 0;
 }
