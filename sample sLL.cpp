@@ -66,7 +66,7 @@ void dis(){
 int main(){
     i_b(19);
     i_e(34);
-    i_af(23);
+    i_bef(23);
     d_f();
     d_e();
     dis();
