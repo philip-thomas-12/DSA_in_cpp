@@ -23,8 +23,9 @@ p->ne=NULL;
     while(a->ne!=NULL){
      a=a->ne;   
     }
-    a=p;
+    a->ne=p;
 }
+
 
 void i_af(int v){
     int k;
