@@ -27,7 +27,7 @@ p->ne=NULL;
 }
 
 
-void i_af(int v){
+void i_bef(int v){
     int k;
     cout<<"enter the key";
     
@@ -36,11 +36,11 @@ void i_af(int v){
 p->d=v;
 p->ne=NULL;
     n*a=s;
-    while(a->ne->d!=k){
-     a=a->ne;   
+    while (a->ne != NULL && a->ne->d != k) {
+        a = a->ne;
     }
-    a=p;
     p->ne=a->ne;
+    a->ne=p;
 }
 void d_f(){
     n*a=s;
