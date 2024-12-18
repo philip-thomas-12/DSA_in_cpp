@@ -55,6 +55,13 @@ void d_e(){
     a->ne=NULL;
     delete a;S
 }
+void dis(){
+    n*a=s;
+    while(a!=NULL){
+        cout<<a->d<<endl;
+        a=a->ne;
+    }
+}
 
 int main(){
     i_b(19);
