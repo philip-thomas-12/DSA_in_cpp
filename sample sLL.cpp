@@ -69,5 +69,6 @@ int main(){
     i_af(23);
     d_f();
     d_e();
+    dis();
     return 0;
 }
