@@ -26,8 +26,7 @@ p->ne=NULL;
     a->ne=p;
 }
 
-
-void i_bef(int v){
+void i_af(int v){
     int k;
     cout<<"enter the key";
     
@@ -36,7 +35,7 @@ void i_bef(int v){
 p->d=v;
 p->ne=NULL;
     n*a=s;
-    while (a->ne != NULL && a->ne->d != k) {
+    while ( a->d != k) {
         a = a->ne;
     }
     p->ne=a->ne;
@@ -53,7 +52,7 @@ void d_e(){
      a=a->ne;   
     }
     a->ne=NULL;
-    delete a;S
+    delete a;
 }
 void dis(){
     n*a=s;
@@ -65,9 +64,13 @@ void dis(){
 
 int main(){
     i_b(19);
+    dis();
     i_e(34);
-    i_bef(23);
+    dis();
+    i_af(23);
+    dis();
     d_f();
+    dis();
     d_e();
     dis();
     return 0;
