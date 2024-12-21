@@ -14,7 +14,7 @@ struct Node {
     }
 };
 
-// Function to insert a new value into the BST
+
 Node* insert(Node* root, int value) {
     if (root == nullptr) {
         return new Node(value);
