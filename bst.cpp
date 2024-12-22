@@ -61,7 +61,7 @@ int main() {
     cout << "Enter the number of elements to insert in the BST: ";
     cin >> n;
 
-    cout << "Enter " << n << " values:" << endl;
+    cout << "Enter" <<n<< "values:" << endl;
     for (int i = 0; i < n; i++) {
         cin >> value;
         root = insert(root, value);
