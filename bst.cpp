@@ -45,7 +45,7 @@ void preorder(Node* root) {
     }
 }
 
-// Post-order traversal (left, right, root)
+
 void postorder(Node* root) {
     if (root != nullptr) {
         postorder(root->left);
