@@ -27,7 +27,7 @@ Node* insert(Node* root, int value) {
     return root;
 }
 
-// In-order traversal (left, root, right)
+
 void inorder(Node* root) {
     if (root != nullptr) {
         inorder(root->left);
