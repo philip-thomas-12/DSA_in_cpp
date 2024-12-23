@@ -67,15 +67,15 @@ int main() {
         root = insert(root, value);
     }
 
-    cout << "In-order Traversal: ";
+    cout << "In-order Traversal : ";
     inorder(root);
     cout << endl;
 
-    cout << "Pre-order Traversal: ";
+    cout << "Pre-order Traversal : ";
     preorder(root);
     cout << endl;
 
-    cout << "Post-order Traversal: ";
+    cout << "Post-order Traversal  : ";
     postorder(root);
     cout << endl;
 
