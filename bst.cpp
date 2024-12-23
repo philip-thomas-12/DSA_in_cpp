@@ -36,7 +36,7 @@ void inorder(Node* root) {
     }
 }
 
-// Pre-order traversal (root, left, right)
+
 void preorder(Node* root) {
     if (root != nullptr) {
         cout << root->data << " ";
