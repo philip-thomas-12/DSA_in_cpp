@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+//
 struct Node {
     int data;
     Node* left;
@@ -14,7 +14,7 @@ struct Node {
     }
 };
 
-
+//
 Node* insert(Node* root, int value) {
     if (root == nullptr) {
         return new Node(value);
