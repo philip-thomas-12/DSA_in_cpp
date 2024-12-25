@@ -63,11 +63,11 @@ void dis(){
 }
 
 int main(){
-    i_b(19);
+    i_b(34);
     dis();
-    i_e(34);
+    i_e(334);
     dis();
-    i_af(23);
+    i_af(34);
     dis();
     d_f();
     dis();
