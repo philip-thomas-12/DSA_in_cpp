@@ -37,8 +37,6 @@ void preorder(Node* root) {
         preorder(root->right);
     }
 }
-
-
 void postorder(Node* root) {
     if (root != nullptr) {
         postorder(root->left);
