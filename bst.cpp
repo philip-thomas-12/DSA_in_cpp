@@ -30,8 +30,6 @@ svoid inorder(Node* root) {
         inorder(root->right);
     }
 }
-
-
 void preorder(Node* root) {
     if (root != nullptr) {
         cout << root->data << " ";
