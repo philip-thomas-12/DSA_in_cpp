@@ -5,11 +5,12 @@ struct Node {
     Node* left;
     Node* right;
 
-    Node(int value) {
+    Node(int value) 
+    {
         data = value;
         left = nullptr;
         right = nullptr;
-    }
+          }
 };
 
 
