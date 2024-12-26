@@ -23,9 +23,7 @@ Node* insert(Node* root, int value) {
     }
     return root;
 }
-
-
-void inorder(Node* root) {
+svoid inorder(Node* root) {
     if (root != nullptr) {
         inorder(root->left);
         cout << root->data << " ";
