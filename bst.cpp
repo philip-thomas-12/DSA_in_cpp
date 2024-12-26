@@ -12,8 +12,6 @@ struct Node {
         right = nullptr;
           }
 };
-
-
 Node* insert(Node* root, int value) {
     if (root == nullptr) {
         return new Node(value);
