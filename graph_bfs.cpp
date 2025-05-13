@@ -10,7 +10,7 @@ int main() {
     vector<vector<int>> adj(V);
     for(int i = 0; i < E; i++) {
         int u, v;
-        cin >> u >> v; // assuming 0-indexed vertices
+        cin >> u >> v; //// assuming 0-indexed vertices
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
