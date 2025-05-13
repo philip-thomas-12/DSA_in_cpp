@@ -2,8 +2,6 @@
 #include <vector>
 using namespace std;
 
-// Filename: max_subarray.cpp
-// Description: Find maximum subarray sum using Kadane's Algorithm.
 
 int main() {
     int n;
