@@ -4,8 +4,7 @@
 #include <limits>
 using namespace std;
 
-// Filename: dijkstra_shortest_path.cpp
-// Description: Dijkstra's algorithm to find shortest paths from source.
+
 
 typedef pair<int,int> pii;
 
