@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Filename: knapsack_01.cpp
-// Description: 0/1 Knapsack problem using dynamic programming.
+
 
 int main() {
     int n, W;
