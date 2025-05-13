@@ -3,8 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-// Filename: lis.cpp
-// Description: Longest Increasing Subsequence (LIS) using dynamic programming (n^2 version).
 
 int main() {
     int n;
