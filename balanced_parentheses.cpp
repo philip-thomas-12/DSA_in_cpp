@@ -3,7 +3,6 @@
 #include <string>
 using namespace std;
 
-
 bool isBalanced(const string& expr) {
     stack<char> st;
     for(char c : expr) {
